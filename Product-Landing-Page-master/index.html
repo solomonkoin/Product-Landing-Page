@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing page</title>
+    <link rel="stylesheet" href="page.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-img">
+        <img id="header-img" src="./images/Logo.png" />
+      </div>
+
+      <div class="nav-bar">
+        <nav id="nav-bar">
+          <ul class="links">
+            <a class="nav-link" href="#feature">Features</a>
+            <a class="nav-link" href="#video">video</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <br />
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <h1 class="title">Nike Superfly boots</h1>
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Enter Your Email Address"
+        button
+        type="submit"
+      />
+      <input button id="submit" type="submit" value="Submit" />
+    </form>
+
+    <br />
+
+    <div class="text">
+      <h1 id="feature">Durability</h1>
+      <p>
+        Nike Superfly soccer boots boost an enomours durabilty both on wet and
+        dry soccer grounds giving the user a long and commited service as we
+        enjoy playing soccer and having fun.
+      </p>
+      <br />
+      <h1>Lightness</h1>
+      <p>
+        Nike superfly soccer boots are extremely light irrespective of different
+        types. This feature gives it a resounding ability for acceleration and
+        sudden stops that are critical in football.
+      </p>
+      <br />
+      <h1>Speed</h1>
+      <p>
+        Nike superfly boots are the fastest boots to ever been made interms of
+        its speed. This feature makes it loved by players across a soccer field
+        from strikers,midfielders to defenders.
+      </p>
+    </div>
+
+    <br />
+
+    <div id="how-it-works">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ciziL9U4JM4"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div id="pricing" class="flex-container">
+      <div class="products">
+        <div class="product-title">
+          <h1>Nike Superfly Club</h1>
+        </div>
+        <div class="product-description">
+          <h2>$100</h2>
+          <p>Durable</p>
+          <p>Light</p>
+          <p>Medium Speed</p>
+        </div>
+        <div class="product-order">
+          <input id="product-order" button type="order" value="Order" />
+        </div>
+      </div>
+      <div class="products">
+        <div class="product-title">
+          <h1>Nike Superfly Elite</h1>
+        </div>
+        <div class="product-description">
+          <h2>$150</h2>
+          <p>Durable</p>
+          <p>Light</p>
+          <p>High Speed</p>
+        </div>
+        <div class="product-order">
+          <input button id="product-order" type="order" value="Order" />
+        </div>
+      </div>
+      <div class="products">
+        <div class="product-title">
+          <h1>Nike Superfly Pro</h1>
+        </div>
+        <div class="product-description">
+          <h2>$200</h2>
+          <p>Durable</p>
+          <p>Light</p>
+          <p>Excellent Speed</p>
+        </div>
+        <div class="product-order">
+          <input button id="product-order" type="order" value="Order" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
